@@ -15,6 +15,8 @@
         --darken-medium: #292c3c;
         --darken-strong: #232634;
         --blur: 10px;
+        --blue: #8caaee;
+        --text: #c6d0f5
     }
 
     html {
@@ -37,6 +39,7 @@
     }
 
     /* Transparent Bg */
+    .css-175oi2r,
     .r-13awgt0,
     .r-1w88a7h,
     /* whole app */
@@ -68,7 +71,7 @@
     .css-175oi2r.r-1awozwy.r-nsiyw1.r-18u37iz.r-1777fci.r-15d164r.r-1sp51qo.r-13qz1uu,
     .css-175oi2r.r-1awozwy.r-nsiyw1.r-18u37iz.r-1777fci.r-1n9sb9w.r-1slz7xr,
     .css-175oi2r.r-y47klf.r-d9fdf6.r-1rcbeiy {
-        background-image: linear-gradient(3.02408rad, rgb(255 255 255), rgb(255 255 255)) !important;
+        background-image: linear-gradient(3.02408rad,  var(--text), var(--text)) !important;
     }
 
     .css-175oi2r.r-1awozwy.r-1llaxt6.r-uvuy5l.r-1777fci.r-cfp7ip/* Mobile compose button */
@@ -211,25 +214,35 @@
     {
         fill: var(--theme);
     }
-
+    /* invite codes */
+    .css-175oi2r.r-1i6wzkk.r-lrvibr.r-1loqt21.r-1otgn73.r-1awozwy.r-5kkj8d.r-18u37iz.r-1s2bzr4.r-ymttw5.r-1f1sjgu svg path/* Feedback button icon */
+    {
+        fill: var(--blue);
+    }
     /* Post character limit radial */
     .css-175oi2r.r-1niwhzg.r-1udh08x svg path,
     .css-175oi2r.r-150rngu.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-1sncvnh svg path/* edit my feeds gear icon */
     {
         stroke: var(--theme) !important;
     }
-
+    
     .css-175oi2r.r-1i6wzkk.r-lrvibr.r-1loqt21.r-1otgn73.r-1awozwy.r-1llaxt6.r-rs99b7.r-18u37iz.r-1777fci.r-8l2rlp.r-1guathk.r-23eiwj.r-u8s1d.r-lyppvc.r-1sffzi .css-1rynq56/* Button text */
     {
-        color: #c6d0f5 !important;
+        color: var(--text) !important;
     }
-
-    /* All links
-.css-175oi2r.r-18u37iz a {
-    color: var(--theme) !important;
-} */
-    /* All text
-.css-1rynq56 {
-    color: var(--theme) !important;
-}*/
+    /*all links */
+    .css-175oi2r.r-18u37iz a {
+        color: var(--theme) !important;
+    }
+    /*     All text */
+    .css-1rynq56 {
+        color: var(--text) !important;
+    }
+    /*     Subtext */
+    .css-1qaijid {
+        color: var(--text) !important;
+    }
+    .css-1qaijid.r-dnmrzs.r-1udh08x.r-1udbk01.r-3s2u2q.r-1iln25a {
+        color: var(--text) !important;
+    }
 }
